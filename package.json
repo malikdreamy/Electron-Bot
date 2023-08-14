@@ -1,0 +1,39 @@
+{
+  "name": "Legend-Viral",
+  "productName": "Legend-Viral",
+  "version": "1.0.0",
+  "description": "Legend Viral AutoCommenting Software for Instagram",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\""
+  },
+  "keywords": [],
+  "author": {
+    "name": "Legend-Viral",
+    "email": "legendarymusic@mail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "babel-loader": "^9.1.2",
+    "bootstrap": "^5.3.0-alpha3",
+    "electron-builder": "^23.6.0",
+    "electron-squirrel-startup": "^1.0.0",
+    "webpack-dev-server": "^4.13.3"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.1.1",
+    "@electron-forge/maker-deb": "^6.1.1",
+    "@electron-forge/maker-rpm": "^6.1.1",
+    "@electron-forge/maker-squirrel": "^6.1.1",
+    "@electron-forge/maker-zip": "^6.1.1",
+    "electron": "^23.3.5",
+    "webpack": "^5.77.0",
+    "webpack-cli": "^5.0.1"
+  }
+}

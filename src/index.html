@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LEGEND VIRAL</title>
+  <link rel="stylesheet" href="./../node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <style>
+    body {
+      background-image: url("legendviral-background.PNG");
+    }
+
+    .card {
+      margin-top: 50px;
+    }
+
+    .card-header {
+      text-align: center;
+      font-weight: bold;
+      font-size: 24px;
+    }
+
+    .form-control {
+      margin-bottom: 10px;
+    }
+
+    .btn {
+      margin-top: 10px;
+    }
+
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+        <div class="card">
+          <div class="card-header">
+            LEGEND VIRAL TIMELINE BOT
+          </div>
+          <div class="card-body">
+            
+              <div class="form-group" id="form">
+                <label for="username">Username</label>
+                <input type="text" class="form-control" id="username" placeholder="Enter your username">
+              </div>
+              <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" placeholder="Enter your password">
+              </div>
+              <div class="form-group">
+                <label for="comment1">How Many Times Do You Want To Comment Each Hour? </label>
+                <input type="text" class="form-control" id="iteration" placeholder="Recommend 30 or less ">
+              </div>
+              <div class="form-group" id="commentGroup">
+                <label for="comment1">Comment</label>
+                <input type="text" class="form-control comments"  placeholder="Enter comment">
+              </div>
+              <div class="form-group" id="addedComments">
+
+              </div>
+              <button id="add-comment" class="btn btn-primary btn-block">Add Comment</button>
+             
+              <button id="submit-button" class="btn btn-success btn-block">Run Bot</button>
+              <button id="stop-button" class="btn btn-danger btn-block">STOP BOT</button>
+             
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script>
+    require('./render.js');
+  </script>
+  </body>
+  </html>
+
